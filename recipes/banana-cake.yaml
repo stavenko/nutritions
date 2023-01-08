@@ -1,0 +1,12 @@
+products:
+  - name: Banana
+    facts:
+      Energy: 50
+      Proteins: 10
+
+
+dish:
+  weight: 90
+  ingredients:
+    - product: Banana
+      amount: 100
