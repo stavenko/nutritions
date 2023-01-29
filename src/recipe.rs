@@ -12,7 +12,7 @@ pub struct Recipe {
 #[derive(Deserialize)]
 pub struct Dish {
     ingredients: Vec<Ingredient>,
-    weight: f64,
+    weight: Option<f64>,
 }
 
 #[derive(Deserialize)]
@@ -57,10 +57,12 @@ impl Recipe {
             if let Some(product) = self.products.iter().find(|p| p.name == ingredient.product) {
                 total_ingredients_weight += ingredient.amount;
                 for (nutrient, amount) in &product.facts {
+                    let this_amount = amount/100.0 * ingredient.amount;
+                    println!("add {} {:?} {:?} {}g = {}",product.name, nutrient, amount/100.0, ingredient.amount, this_amount);
                     totals_for_dish
                         .entry(*nutrient)
-                        .and_modify(|v| *v += amount)
-                        .or_insert(*amount);
+                        .and_modify(|v| *v += this_amount)
+                        .or_insert(this_amount);
                 }
             } else {
                 panic!(
@@ -73,12 +75,15 @@ impl Recipe {
                 )
             }
         }
-        let ing_coef = total_ingredients_weight / self.dish.weight;
+        println!("Totals for raw ingredients {:?}", totals_for_dish);
+        let ing_coef = self.dish.weight.map(|dish_weight| total_ingredients_weight / dish_weight).unwrap_or(1.0);
+        println!("{}", ing_coef);
+
 
         NutritionFacts(
             totals_for_dish
                 .into_iter()
-                .map(|(k, a)| (k, a * ing_coef))
+                .map(|(k, a)| (k, a * ing_coef / 10.0))
                 .collect(),
         )
     }

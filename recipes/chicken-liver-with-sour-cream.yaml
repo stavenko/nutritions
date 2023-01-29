@@ -1,0 +1,49 @@
+products:
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+  - name: Flour
+    facts:
+      Energy: 340
+      Proteins: 12
+      Carbohydrates: 70.6
+      Fats: 1.1
+
+  - name: Sour cream
+    facts:
+      Energy: 116.4
+      Proteins: 2.7
+      Carbohydrates: 3.9
+      Fats: 10
+  - name: Sunflower oil
+    facts:
+      Energy: 899
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 99.9
+
+  - name: Chicken liver
+    facts:
+      Energy: 160
+      Proteins: 18
+      Carbohydrates: 0
+      Fats: 10
+
+
+dish:
+  weight: 761
+  ingredients:
+    - product: Sunflower oil
+      amount: 17
+    - product: Chicken liver
+      amount: 558
+    - product: Onion
+      amount: 194
+    - product: Flour
+      amount: 23
+    - product: Sour cream
+      amount: 200

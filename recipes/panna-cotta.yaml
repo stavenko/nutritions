@@ -1,0 +1,32 @@
+products:
+  - name: gelatin
+    facts:
+      Energy: 355
+      Proteins: 87.2
+      Carbohydrates: 0.7
+      Fats: 0.4
+
+  - name: Cream
+    facts:
+      Energy: 319
+      Proteins: 2.2
+      Carbohydrates: 3.3
+      Fats: 33
+  - name: milk
+    facts:
+      Energy: 47
+      Proteins: 3
+      Carbohydrates: 4.7
+      Fats: 1.8
+
+
+dish:
+  weight: ~
+  ingredients:
+    - product: gelatin
+      amount: 30
+    - product: Cream
+      amount: 416
+    - product: milk
+      amount: 208
+
