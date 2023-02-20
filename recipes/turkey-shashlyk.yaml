@@ -1,0 +1,23 @@
+products:
+  - name: Sunflower oil
+    facts:
+      Energy: 899
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 99.9
+
+  - name: Turkey
+    facts:
+      Energy: 104
+      Proteins: 17.7
+      Carbohydrates: 4.2
+      Fats: 1.66
+
+dish:
+  weight: 300
+  ingredients:
+    - product: Turkey
+      amount: 460
+    - product: Sunflower oil
+      amount: 10
+

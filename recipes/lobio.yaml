@@ -1,0 +1,42 @@
+products:
+  - name: Sunflower oil
+    facts:
+      Energy: 899
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 99.9
+
+  - name: Carrot
+    facts:
+      Energy: 24
+      Proteins: 1.44
+      Carbohydrates: 5.58
+      Fats: 0.12
+
+
+  - name: Garlic
+    facts:
+      Energy: 149
+      Proteins: 6.36
+      Carbohydrates: 33.06
+      Fats: 0.5
+
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+dish:
+  weight: ~
+  ingredients:
+    - product: Sunflower oil
+      amount: 65
+    - product: Carrot
+      amount: 2580
+    - product: Onion
+      amount: 254
+    - product: Garlic
+      amount: 36
+

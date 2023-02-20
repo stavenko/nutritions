@@ -1,0 +1,41 @@
+products:
+
+  - name: Garlic
+    facts:
+      Energy: 149
+      Proteins: 6.36
+      Carbohydrates: 33.06
+      Fats: 0.5
+
+  - name: Ginger
+    facts:
+      Energy: 80
+      Proteins: 1.82
+      Carbohydrates: 17.77
+      Fats: 0.75
+  - name: Tomato paste
+    facts:
+      Energy: 110
+      Proteins: 4
+      Carbohydrates: 15
+      Fats: 3.5
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+
+dish:
+  weight: 579
+  ingredients:
+    - product: Onion
+      amount: 173
+    - product: Garlic
+      amount: 18
+    - product: Ginger
+      amount: 22
+    - product: Tomato paste
+      amount: 144
+

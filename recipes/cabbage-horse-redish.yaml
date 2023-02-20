@@ -1,0 +1,59 @@
+products:
+  - name: Sunflower oil
+    facts:
+      Energy: 899
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 99.9
+
+  - name: Cabbage
+    facts:
+      Energy: 24
+      Proteins: 1.44
+      Carbohydrates: 5.58
+      Fats: 0.12
+
+  - name: Carrots
+    facts:
+      Energy: 41
+      Proteins: 0.93
+      Carbohydrates: 9.58
+      Fats: 0.24
+
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+  - name: Pepper
+    facts:
+      Energy: 26
+      Proteins: 0.99
+      Carbohydrates: 6.03
+      Fats: 0.3
+
+  - name: Horse radish
+    facts:
+      Energy: 48
+      Proteins: 1.18
+      Carbohydrates: 11.29
+      Fats: 0.69
+
+dish:
+  weight: ~
+  ingredients:
+    - product: Sunflower oil
+      amount: 57
+    - product: Cabbage
+      amount: 2083
+    - product: Carrots
+      amount: 386
+    - product: Horse radish
+      amount: 135
+    - product: Pepper
+      amount: 341
+    - product: Onion
+      amount: 147
+
