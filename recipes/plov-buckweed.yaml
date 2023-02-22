@@ -1,0 +1,18 @@
+products:
+  - name: Zirvak
+    recipe: ./recipes/zirvak.yaml
+
+  - name: Buckwheat
+    facts:
+      Energy: 110
+      Proteins: 24
+      Carbohydrates: 0
+      Fats: 1.5
+dish:
+  weight: 700
+  ingredients:
+    - product: Zirvak
+      amount: 600
+    - product: Buckwheat
+      amount: 200
+
