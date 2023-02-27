@@ -1,19 +1,4 @@
 products:
-  - name: Sunflower oil
-    facts:
-      Energy: 899
-      Proteins: 0 
-      Carbohydrates: 0
-      Fats: 99.9
-
-  - name: Carrot
-    facts:
-      Energy: 24
-      Proteins: 1.44
-      Carbohydrates: 5.58
-      Fats: 0.12
-
-
   - name: Garlic
     facts:
       Energy: 149
@@ -27,16 +12,69 @@ products:
       Proteins: 0.92
       Carbohydrates: 10.11
       Fats: 0.08
+  - name: Beans
+    facts:
+      Energy: 326
+      Proteins: 22
+      Carbohydrates: 52.8
+      Fats: 1.6
+  - name: Red hot pepper
+    facts:
+      Energy: 353
+      Proteins: 15.9
+      Carbohydrates: 65.1
+      Fats: 2.8
+  - name: Walnut
+    facts:
+      Energy: 654
+      Proteins: 15.23
+      Carbohydrates: 13.71
+      Fats: 65.21
+  - name: Celery
+    facts:
+      Energy: 14
+      Proteins: 0.69
+      Carbohydrates: 2.97
+      Fats: 0.17
+  - name: Parsley
+    facts:
+      Energy: 36
+      Proteins: 2.97
+      Carbohydrates: 6.33
+      Fats: 0.79
+  - name: Cilantro
+    facts:
+      Energy: 23
+      Proteins: 2.13
+      Carbohydrates: 3.67
+      Fats: 0.52
+  - name: Narsharab
+    facts:
+      Energy: 284.3
+      Proteins: 0
+      Carbohydrates: 68.51
+      Fats: 0
+
 
 dish:
-  weight: ~
+  weight: 2094
   ingredients:
-    - product: Sunflower oil
-      amount: 65
-    - product: Carrot
-      amount: 2580
+    - product: Beans
+      amount: 500
     - product: Onion
-      amount: 254
+      amount: 198
     - product: Garlic
-      amount: 36
+      amount: 15
+    - product: Red hot pepper
+      amount: 5
+    - product: Walnut
+      amount: 50
+    - product: Celery
+      amount: 37
+    - product: Parsley
+      amount: 40
+    - product: Cilantro
+      amount: 30
+    - product: Narsharab
+      amount: 48
 

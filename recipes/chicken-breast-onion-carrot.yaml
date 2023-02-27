@@ -1,0 +1,61 @@
+products:
+  - name: Carrot
+    facts:
+      Energy: 41
+      Proteins: 0.93
+      Carbohydrates: 9.58
+      Fats: 0.24
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+  - name: Flour
+    facts:
+      Energy: 340
+      Proteins: 12
+      Carbohydrates: 70.6
+      Fats: 1.1
+
+  - name: Sour cream
+    facts:
+      Energy: 116.4
+      Proteins: 2.7
+      Carbohydrates: 3.9
+      Fats: 10
+  - name: Sunflower oil
+    facts:
+      Energy: 899
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 99.9
+  - name: Butter
+    facts:
+      Energy: 742
+      Proteins: 0.6
+      Carbohydrates: 0.3
+      Fats: 82
+
+  - name: Chicken breast
+    facts:
+      Energy: 110
+      Proteins: 23.09
+      Carbohydrates: 0
+      Fats: 1.24
+
+
+dish:
+  weight: 641
+  ingredients:
+    - product: Sunflower oil
+      amount: 40
+    - product: Chicken breast
+      amount: 662
+    - product: Onion
+      amount: 151
+    - product: Carrot
+      amount: 225
+    - product: Butter
+      amount: 6
