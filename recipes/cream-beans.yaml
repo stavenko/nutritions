@@ -1,0 +1,57 @@
+products:
+
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+  - name: White Beans
+    facts:
+      Energy: 73.3
+      Proteins: 6
+      Carbohydrates: 10
+      Fats: 1.6
+
+  - name: Cheddar
+    facts:
+      Energy: 369
+      Proteins: 23.5 
+      Carbohydrates: 0
+      Fats: 30.5
+  - name: Suluguni
+    facts:
+      Energy: 278
+      Proteins: 21.9
+      Carbohydrates: 0
+      Fats: 21.2
+
+  - name: Cream
+    facts:
+      Energy: 160
+      Proteins: 2.5
+      Carbohydrates: 3.7
+      Fats: 15
+  - name: Sunflower oil
+    facts:
+      Energy: 899
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 99.9
+
+dish:
+  weight: 1028
+  ingredients:
+    - product: White Beans
+      amount: 503
+    - product: Onion
+      amount: 95
+    - product: Cheddar
+      amount: 66
+    - product: Suluguni
+      amount: 153
+    - product: Cream
+      amount: 194
+    - product: Sunflower oil
+      amount: 10
+

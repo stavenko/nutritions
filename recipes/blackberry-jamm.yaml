@@ -1,0 +1,29 @@
+products:
+  - name: Black berry frozen
+    facts:
+      Energy: 44
+      Proteins: 1.1
+      Carbohydrates: 7.6
+      Fats: 0.6
+  - name: Sweetener
+    facts:
+      Energy: 0
+  - name: Corn Starch
+    facts:
+      Energy: 350
+      Carbohydrates: 85
+      Fats: 0.5
+      Proteins: 1
+
+
+dish:
+  weight: 375
+  ingredients:
+    - product: Sweetener
+      amount: 4
+    - product: Black berry frozen
+      amount: 300
+    - product: Corn Starch
+      amount: 21
+
+

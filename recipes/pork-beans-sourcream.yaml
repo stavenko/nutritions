@@ -1,0 +1,65 @@
+products:
+  - name: Sunflower oil
+    facts:
+      Energy: 899
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 99.9
+
+  - name: Pork tenderloin
+    facts:
+      Energy: 135
+      Proteins: 18
+      Carbohydrates: 0
+      Fats: 7
+
+  - name: Turkey breast
+    facts:
+      Energy: 100
+      Proteins: 20
+      Carbohydrates: 0
+      Fats: 2.5
+
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+  - name: Beans
+    facts:
+      Energy: 85
+      Proteins: 5.4 
+      Carbohydrates: 14
+      Fats: 0.8
+
+  - name: Teriyaki frying sauce
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+  - name: Sour cream
+    facts:
+      Energy: 159.8
+      Proteins: 2.6
+      Carbohydrates: 3.6
+      Fats: 15
+dish:
+  weight: 1220
+  ingredients:
+    - product: Pork tenderloin
+      amount: 618
+    - product: Turkey breast
+      amount: 0
+    - product: Sunflower oil
+      amount: 12
+    - product: Beans
+      amount: 473
+    - product: Sour cream
+      amount: 199
+    - product: Onion
+      amount: 273
+

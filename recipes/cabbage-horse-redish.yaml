@@ -45,15 +45,15 @@ dish:
   weight: ~
   ingredients:
     - product: Sunflower oil
-      amount: 57
+      amount: 0
     - product: Cabbage
-      amount: 2083
+      amount: 2000
     - product: Carrots
-      amount: 386
+      amount: 400
     - product: Horse radish
-      amount: 135
+      amount: 0
     - product: Pepper
-      amount: 341
+      amount: 136
     - product: Onion
-      amount: 147
+      amount: 112
 

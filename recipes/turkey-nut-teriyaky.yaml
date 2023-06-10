@@ -1,0 +1,56 @@
+products:
+  - name: Sunflower oil
+    facts:
+      Energy: 899
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 99.9
+
+  - name: Turkey breast
+    facts:
+      Energy: 110
+      Proteins: 24
+      Carbohydrates: 0
+      Fats: 1.5
+
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+  - name: Beans
+    facts:
+      Energy: 83
+      Proteins: 4.7
+      Carbohydrates: 14.3
+      Fats: 0.8
+
+  - name: Teriyaki frying sauce
+    facts:
+      Energy: 75
+      Proteins: 3
+      Carbohydrates: 16
+      Fats: 10
+
+  - name: Ketchup
+    facts:
+      Energy: 110
+      Proteins: 1
+      Carbohydrates: 25
+      Fats: 0.1
+dish:
+  weight: 1316
+  ingredients:
+    - product: Turkey breast
+      amount: 972
+    - product: Sunflower oil
+      amount: 11
+    - product: Beans
+      amount: 519
+    - product: Ketchup
+      amount: 100
+    - product: Onion
+      amount: 178
+

@@ -1,0 +1,41 @@
+products:
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+  - name: Sour cream
+    facts:
+      Energy: 200
+      Proteins: 2.8
+      Carbohydrates: 3.9
+      Fats: 10
+
+  - name: Sunflower oil
+    facts:
+      Energy: 899
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 99.9
+
+  - name: Chicken hearts
+    facts:
+      Energy: 153
+      Proteins: 15.55
+      Carbohydrates: 0.71
+      Fats: 9.33
+
+
+dish:
+  weight: 463
+  ingredients:
+    - product: Sunflower oil
+      amount: 10
+    - product: Chicken hearts
+      amount: 485
+    - product: Onion
+      amount: 86
+    - product: Sour cream
+      amount: 141

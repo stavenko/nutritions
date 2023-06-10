@@ -1,0 +1,85 @@
+products:
+  - name: Spinach
+    facts:
+      Energy: 23
+      Proteins: 2.86
+      Carbohydrates: 3.63
+      Fats: 0.39
+  - name: Dill
+    facts:
+      Energy: 43
+      Proteins: 3.46
+      Carbohydrates: 7.02
+      Fats: 1.12
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+  - name: Garlic
+    facts:
+      Energy: 149
+      Proteins: 6.36
+      Carbohydrates: 33.06
+      Fats: 0.5
+  - name: Dry Onion
+    facts:
+      Energy: 349
+      Proteins: 9
+      Carbohydrates: 74
+      Fats: 0.5
+  - name: Garlic Powder
+    facts:
+      Energy: 370
+      Proteins: 21
+      Carbohydrates: 64
+      Fats: 3.5
+  - name: Cashew
+    facts:
+      Energy: 574
+      Proteins: 15.31
+      Carbohydrates: 32.69
+      Fats: 46.35
+  - name: Protein
+    facts:
+      Energy: 388
+      Proteins: 78
+      Carbohydrates: 5.6
+      Fats: 5.9
+  - name: Lemon juice
+    facts:
+      Energy: 25
+      Proteins: 0.38
+      Carbohydrates: 8.63
+      Fats: 0
+  - name: Water
+    facts:
+      Energy: 0
+      Proteins: 0
+      Carbohydrates: 0
+      Fats: 0
+dish:
+  weight: ~
+  ingredients:
+    - product: Spinach
+      amount: 500
+    - product: Dill
+      amount: 94
+    - product: Onion
+      amount: 114
+    - product: Garlic
+      amount: 48
+    - product: Dry Onion
+      amount: 0
+    - product: Garlic Powder
+      amount: 45
+    - product: Cashew
+      amount: 157
+    - product: Protein
+      amount: 137
+    - product: Lemon juice
+      amount: 92
+    - product: Water
+      amount: 0
+

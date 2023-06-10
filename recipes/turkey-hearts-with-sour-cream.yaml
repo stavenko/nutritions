@@ -1,0 +1,41 @@
+products:
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+  - name: Sour cream
+    facts:
+      Energy: 159.8
+      Proteins: 2.6
+      Carbohydrates: 3.6
+      Fats: 15
+
+  - name: Sunflower oil
+    facts:
+      Energy: 899
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 99.9
+
+  - name: Turkey hearts
+    facts:
+      Energy: 150
+      Proteins: 15
+      Carbohydrates: 0
+      Fats: 10
+
+
+dish:
+  weight: 566
+  ingredients:
+    - product: Sunflower oil
+      amount: 7
+    - product: Turkey hearts
+      amount: 622
+    - product: Onion
+      amount: 114
+    - product: Sour cream
+      amount: 124

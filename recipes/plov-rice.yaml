@@ -1,0 +1,18 @@
+products:
+  - name: Zirvak
+    recipe: ./recipes/zirvak.yaml
+
+  - name: Rice
+    facts:
+      Energy: 330
+      Proteins: 6.06
+      Carbohydrates: 72.79
+      Fats: 0.53
+dish:
+  weight: 885
+  ingredients:
+    - product: Zirvak
+      amount: 623
+    - product: Rice
+      amount: 200
+
