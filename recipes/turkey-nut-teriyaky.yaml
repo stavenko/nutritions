@@ -19,6 +19,12 @@ products:
       Proteins: 0.92
       Carbohydrates: 10.11
       Fats: 0.08
+  - name: Tomato paste
+    facts:
+      Energy: 110
+      Proteins: 4
+      Carbohydrates: 15
+      Fats: 3.5
 
   - name: Beans
     facts:
@@ -41,16 +47,18 @@ products:
       Carbohydrates: 25
       Fats: 0.1
 dish:
-  weight: 1316
+  weight: 1320
   ingredients:
     - product: Turkey breast
-      amount: 972
+      amount: 1022
     - product: Sunflower oil
-      amount: 11
+      amount: 8
     - product: Beans
-      amount: 519
+      amount: 0
     - product: Ketchup
-      amount: 100
+      amount: 0
+    - product: Tomato paste
+      amount: 140
     - product: Onion
-      amount: 178
+      amount: 208
 

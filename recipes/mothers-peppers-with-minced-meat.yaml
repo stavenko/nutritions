@@ -1,0 +1,65 @@
+products:
+  - name: Sunflower oil
+    facts:
+      Energy: 899
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 99.9
+
+  - name: Carrots
+    facts:
+      Energy: 41
+      Proteins: 0.93
+      Carbohydrates: 9.58
+      Fats: 0.24
+
+  - name: Pepper
+    facts:
+      Energy: 26
+      Proteins: 0.99
+      Carbohydrates: 6.03
+      Fats: 0.3
+
+  - name: Chicken breast
+    facts:
+      Energy: 110
+      Proteins: 21
+      Carbohydrates: 0
+      Fats: 2.5
+
+  - name: Pearl barley
+    facts:
+      Energy: 122
+      Proteins: 2.24
+      Carbohydrates: 27.94
+      Fats: 0.44
+
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+  - name: Hungurian snack
+    facts:
+      Energy: 82
+      Proteins: 5
+      Carbohydrates: 3
+      Fats: 5.5
+dish:
+  weight: 2171
+  ingredients:
+    - product: Pepper
+      amount: 1000
+    - product: Onion
+      amount: 245
+    - product: Carrots
+      amount: 310
+    - product: Pearl barley
+      amount: 137
+    - product: Chicken breast
+      amount: 540
+    - product: Sunflower oil
+      amount: 40
+

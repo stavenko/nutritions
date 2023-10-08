@@ -1,0 +1,41 @@
+products:
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+  - name: Cream
+    facts:
+      Energy: 205.2
+      Proteins: 2.5
+      Carbohydrates: 3.8
+      Fats: 20
+
+  - name: Avocado oil
+    facts:
+      Energy: 900
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 100
+
+  - name: Squid
+    facts:
+      Energy: 98
+      Proteins: 18
+      Carbohydrates: 2
+      Fats: 2
+
+
+dish:
+  weight: 784
+  ingredients:
+    - product: Avocado oil
+      amount: 10
+    - product: Squid
+      amount: 862
+    - product: Onion
+      amount: 140
+    - product: Cream
+      amount: 120

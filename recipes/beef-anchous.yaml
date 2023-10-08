@@ -1,0 +1,40 @@
+products:
+  - name: Avocado oil
+    facts:
+      Energy: 900
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 100
+
+  - name: Beef
+    facts:
+      Energy: 124
+      Proteins: 17
+      Carbohydrates: 0
+      Fats: 6.2
+
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+  - name: Anchous Souse
+    facts:
+      Energy: 200
+      Proteins: 17
+      Carbohydrates: 27
+      Fats: 2.5
+dish:
+  weight: 680
+  ingredients:
+    - product: Beef
+      amount: 756
+    - product: Avocado oil
+      amount: 11
+    - product: Anchous Souse
+      amount: 14
+    - product: Onion
+      amount: 100
+

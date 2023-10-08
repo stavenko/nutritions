@@ -130,20 +130,7 @@ impl Recipe {
             totals_for_dish, total_ingredients_weight
         );
 
-        let ing_coef = self
-            .dish
-            .weight
-            .map(|dish_weight| total_ingredients_weight / dish_weight)
-            .unwrap_or(1.0);
-        println!("{}", ing_coef);
 
-        println!(
-            "whole result dish {:?}",
-            totals_for_dish
-                .iter()
-                .map(|(k, a)| (k, a * ing_coef))
-                .collect::<Vec<_>>()
-        );
         let weight_to_hundred = self
             .dish
             .weight
@@ -153,7 +140,7 @@ impl Recipe {
         Ok(NutritionFacts(
             totals_for_dish
                 .into_iter()
-                .map(|(k, a)| (k, a * ing_coef * weight_to_hundred))
+                .map(|(k, a)| (k, a  * weight_to_hundred))
                 .collect(),
         ))
     }

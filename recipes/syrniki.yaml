@@ -1,0 +1,32 @@
+products:
+  - name: Cottage cheese
+    facts:
+      Energy: 86
+      Proteins: 18
+      Carbohydrates: 3.3
+      Fats: 0.1
+
+  - name: Egg
+    facts:
+      Energy: 147
+      Proteins: 12.58
+      Carbohydrates: 0.77
+      Fats: 9.94
+  - name: Flour
+    facts:
+      Energy: 391
+      Proteins: 13.2
+      Carbohydrates: 69.1
+      Fats: 6.0
+
+
+dish:
+  weight: ~
+  ingredients:
+    - product: Cottage cheese
+      amount: 620
+    - product: Egg
+      amount: 170
+    - product: Flour
+      amount: 100
+

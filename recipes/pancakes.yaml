@@ -1,0 +1,50 @@
+products:
+  - name: Milk
+    facts:
+      Energy: 86
+      Proteins: 18
+      Carbohydrates: 3.3
+      Fats: 0.1
+
+  - name: Egg
+    facts:
+      Energy: 147
+      Proteins: 12.58
+      Carbohydrates: 0.77
+      Fats: 9.94
+
+  - name: Flour
+    facts:
+      Energy: 391
+      Proteins: 13.2
+      Carbohydrates: 69.1
+      Fats: 6.0
+
+  - name: Butter
+    facts:
+      Energy: 742
+      Proteins: 0.6
+      Carbohydrates: 0.3
+      Fats: 82
+
+  - name: Sunflower oil
+    facts:
+      Energy: 899
+      Proteins: 0 
+      Carbohydrates: 0
+      Fats: 99.9
+
+dish:
+  weight: 1314
+  ingredients:
+    - product: Sunflower oil
+      amount: 16
+    - product: Egg
+      amount: 180
+    - product: Flour
+      amount: 454
+    - product: Milk
+      amount: 1000
+    - product: Butter
+      amount: 38
+

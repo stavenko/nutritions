@@ -25,10 +25,10 @@ products:
       Fats: 0.5
   - name: Dry Onion
     facts:
-      Energy: 349
-      Proteins: 9
-      Carbohydrates: 74
-      Fats: 0.5
+      Energy: 360
+      Proteins: 8
+      Carbohydrates: 43
+      Fats: 17
   - name: Garlic Powder
     facts:
       Energy: 370
