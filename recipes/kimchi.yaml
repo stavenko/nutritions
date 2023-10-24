@@ -1,0 +1,102 @@
+products:
+
+  - name: Cabbage
+    facts:
+      Energy: 16
+      Proteins: 1.2
+      Carbohydrates: 3.23
+      Fats: 0.2
+
+  - name: Onion
+    facts:
+      Energy: 42
+      Proteins: 0.92
+      Carbohydrates: 10.11
+      Fats: 0.08
+
+  - name: Pear
+    facts:
+      Energy: 42
+      Proteins: 0.5
+      Carbohydrates: 10.65
+      Fats: 0.23
+
+  - name: Fish souse
+    facts:
+      Energy: 80
+      Proteins: 12
+      Carbohydrates: 8.1
+      Fats: 0
+  - name: Hot Pepper
+    facts:
+      Energy: 354
+      Proteins: 15.9
+      Carbohydrates: 65.1
+      Fats: 2.8
+  - name: Ginger
+    facts:
+      Energy: 80
+      Proteins: 1.82
+      Carbohydrates: 17.77
+      Fats: 0.75
+
+  - name: Rice flavor
+    facts:
+      Energy: 356
+      Proteins: 5.84
+      Carbohydrates: 77.73
+      Fats: 1.44
+
+  - name: Carrot
+    facts:
+      Energy: 24
+      Proteins: 1.44
+      Carbohydrates: 5.58
+      Fats: 0.12
+
+  - name: Daykon
+    facts:
+      Energy: 21
+      Proteins: 0.78
+      Carbohydrates: 4.57
+      Fats: 0.11
+
+  - name: Garlic
+    facts:
+      Energy: 149
+      Proteins: 6.36
+      Carbohydrates: 33.06
+      Fats: 0.5
+
+  - name: Green Onion
+    facts:
+      Energy: 32
+      Proteins: 1.38
+      Carbohydrates: 7.34
+      Fats: 0.19
+dish:
+  weight: 6300
+  ingredients:
+    - product: Cabbage
+      amount: 4500
+    - product: Carrot
+      amount: 252
+    - product: Onion
+      amount: 260
+    - product: Daykon
+      amount: 235
+    - product: Garlic
+      amount: 140
+    - product: Green Onion
+      amount: 89
+    - product: Pear
+      amount: 460
+    - product: Ginger
+      amount: 90
+    - product: Rice flavor
+      amount: 92
+    - product: Hot Pepper
+      amount: 34
+    - product: Fish souse
+      amount: 109
+
