@@ -29,13 +29,13 @@ products:
 
 
 dish:
-  weight: 1015
+  weight: 1065
   ingredients:
     - product: Sunflower oil
-      amount: 14
+      amount: 5
     - product: Turkey breasts
-      amount: 1190
+      amount: 1274
     - product: Onion
-      amount: 264
+      amount: 228
     - product: Korean flavor
-      amount: 31
+      amount: 15
